@@ -32,4 +32,5 @@ for i in range(n):
 Lat_dd,Long_dd=[format(_,f".{no_of_decimals_in_dd}f") for _ in Lat_dd],[format(_,f".{no_of_decimals_in_dd}f") for _ in Long_dd]
 OP={'E':Esting,'N':Northing,'latitude(dd)':Lat_dd,'longitude(dd)':Long_dd,'latitude(dms)':Lat_dms,'longitude(dms)':Long_dms}
 OP=pd.DataFrame(OP)
+print(OP.head())
 OP.to_excel("from_UTM.xlsx")
