@@ -16,5 +16,5 @@ dms: Degree,minutes and seconds
 3.1) This code takes the excel as input with the name 'from_dms.xlsx', consist of longitude in dms, latitude in dms with a header as longitude and latitude [in Sheet1] and converts to Latitude/Longitudes in Desimals Degrees and Eastin/Northing/zone.
 3.2) Number of decimal values in output can be adjusted in 3rd and 4th line of the code
 3.3) Output is stored in same excel with Headers as longitude(dd),latitude(dd), Easting, Northing and Zone
-3.4) Input dms may be like 30°41'34.11"S or -30°41'34.11" any thing accepted
+3.4) Input dms may be like 30°41'34.11"S or -30°41'34.11" any thing is accepted
 
