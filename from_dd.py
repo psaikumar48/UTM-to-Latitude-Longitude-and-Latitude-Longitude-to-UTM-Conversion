@@ -23,7 +23,7 @@ for i in range(n):
     Long_dms.append(decdeg2dms(long[i]))
 
 E,N=[format(_,f".{no_of_decimals_in_UTM}f") for _ in E],[format(_,f".{no_of_decimals_in_UTM}f") for _ in N]
-OP={'longitude(dd)':long,'latitude(dd)':lat,'longitude(dms)':Long_dms,'latitude(dms)':Lat_dms,'Esting':E,'Northing':N,'Zone':Z}
+OP={'longitude':long,'latitude':lat,'longitude(dms)':Long_dms,'latitude(dms)':Lat_dms,'Esting':E,'Northing':N,'Zone':Z}
 OP=pd.DataFrame(OP)
 print(OP.head())
 OP.to_excel("from_dd.xlsx")
