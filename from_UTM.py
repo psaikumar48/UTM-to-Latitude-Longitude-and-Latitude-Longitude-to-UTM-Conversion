@@ -9,7 +9,7 @@ while loop:
         Ezone,Nzone=int(Zone[:-1]),Zone[-1]
         loop=False    
     else:
-        print('Wrong input......., Zone ID be like "1A" "36Q"')
+        print('Wrong input......., Zone ID be like "6M" "36Q"')
 def decdeg2dms(dd,Longitude=True):
     minutes,seconds = divmod(abs(dd)*3600,60)
     degrees,minutes = divmod(minutes,60)
